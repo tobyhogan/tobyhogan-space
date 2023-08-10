@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Toby Hogan</title>
-	<atom:link href="http://localhost/feed/?simply_static_page=200" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/feed/?simply_static_page=488" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
 	<lastBuildDate>Tue, 01 Aug 2023 11:56:51 +0000</lastBuildDate>
