@@ -13,5 +13,12 @@ permalink: /
 This is a look at some of my projects
 {: style="text-align: center;"}
 
+<div class="container">
+    <a href="">Habitazen</a>
+    {: style="text-decoration: none;"}
+    <img src="assets/habitazen.png"/>
+</div>
+
+
 
 
