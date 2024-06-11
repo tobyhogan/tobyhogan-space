@@ -7,7 +7,7 @@ title: Home
 permalink: /
 ---
 
-## Habitazen Habit Tracker
+## tobyhogan.space
 
 Why this Habit Tracker?
 
