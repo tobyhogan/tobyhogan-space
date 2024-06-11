@@ -7,11 +7,11 @@ title: Home
 permalink: /
 ---
 
-## tobyhogan.space
+#### tobyhogan.space
+{: style="text-align: center;"}
 
-Why this Habit Tracker?
+This is a look at some of my projects
+{: style="text-align: center;"}
 
-- Shows next weeks habits in a seamless table
-- Flexible, customizable and as simple or advanced as you want it to be
-- Cross platform from web, mobile and desktop!
-- 
+
+
