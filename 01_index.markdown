@@ -13,10 +13,9 @@ permalink: /
 This is a look at some of my projects
 {: style="text-align: center;"}
 
-<div class="container">
-    <a href="">Habitazen</a>
-    {: style="text-decoration: none;"}
-    <img src="assets/habitazen.png"/>
+<div class="container" border="2px solid black" display="grid">
+    <a href="" color="red">Habitazen</a>
+    <img src="assets/habitazen.png" width="50%" border="1px solid black"/>
 </div>
 
 
