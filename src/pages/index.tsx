@@ -3,8 +3,8 @@ import type { HeadFC, PageProps } from "gatsby"
 
 const pageStyles = {
   color: "#232129",
-  padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  width: "full",
 }
 const headingStyles = {
   marginTop: 0,
@@ -14,6 +14,16 @@ const headingStyles = {
 const headingAccentStyles = {
   color: "#663399",
 }
+
+const titleStyles = {
+  marginTop: 0,
+  marginBottom: 64,
+  maxWidth: 320,
+  fontSize: "20px",
+  textAlign: "center",
+  margin: "auto",
+}
+
 const paragraphStyles = {
   marginBottom: 48,
 }
@@ -82,7 +92,14 @@ const badgeStyle = {
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
-      <h1 style={headingStyles}>tobyhogan.space</h1>
+      <h1 style={titleStyles}>tobyhogan.space</h1>
+      <p>Some of my projects: </p>
+      <div>
+        <div>
+          Habitazen
+          <img></img>
+        </div>
+      </div>
     </main>
   )
 }
