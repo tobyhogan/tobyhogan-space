@@ -38,7 +38,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <div className="mx-auto flex border-2 border-black rounded-lg w-fit">
         <div style={widgetsRowStyles}>
           <div style={projectWidgetStyles}>
-            <p>Habitazen</p>
+            <a href="https://kaizenprojects.co" className="underline text-blue-500" target="_blank">Habitazen</a>
             <img src={habtiazen_screenshot}></img>
           </div>
           <div style={projectWidgetStyles}>
