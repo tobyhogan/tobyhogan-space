@@ -5,7 +5,6 @@ module.exports = {
     'gatsby-plugin-postcss',
     // ...
   ],
-  pathPrefix: "/tobyhogan-space",
 
 }
 
