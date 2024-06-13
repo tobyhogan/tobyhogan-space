@@ -5,6 +5,8 @@ module.exports = {
     'gatsby-plugin-postcss',
     // ...
   ],
+  pathPrefix: "/tobyhogan-space",
+
 }
 
 const config: GatsbyConfig = {
