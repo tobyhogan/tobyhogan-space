@@ -21,7 +21,7 @@ const projectWidgetStyles = {
   margin: "1%",
   textAlign: "center",
   display: "flex",
-  flexDirection: "col",
+  flexDirection: "column",
 
 }
 
@@ -42,13 +42,16 @@ const IndexPage: React.FC<PageProps> = () => {
             <img src={habtiazen_screenshot}></img>
           </div>
           <div style={projectWidgetStyles}>
-            <p>test</p>
+            <p>To added...</p>
           </div>
-          <div style={projectWidgetStyles}><p></p></div>
+          <div style={projectWidgetStyles}>
+            <p>To added...</p>
+          </div>
         </div>
         <div></div>
         <div></div>
       </div>
+      <p className="text-center mt-12">tobyhogan.space 2024 ©</p>
     </main>
   )
 }
