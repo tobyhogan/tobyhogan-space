@@ -6,6 +6,9 @@ module.exports = {
     // ...
   ],
 
+  pathPrefix: "",
+  
+
 }
 
 const config: GatsbyConfig = {
