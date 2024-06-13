@@ -1,5 +1,12 @@
 import type { GatsbyConfig } from "gatsby"
 
+module.exports = {
+  plugins: [
+    'gatsby-plugin-postcss',
+    // ...
+  ],
+}
+
 const config: GatsbyConfig = {
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`,
@@ -12,3 +19,5 @@ const config: GatsbyConfig = {
 }
 
 export default config
+
+
