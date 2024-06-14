@@ -11,6 +11,9 @@ importers:
       gatsby:
         specifier: ^5.13.5
         version: 5.13.6(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5)
+      gatsby-plugin-manifest:
+        specifier: ^5.13.1
+        version: 5.13.1(gatsby@5.13.6(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5))(graphql@16.8.2)
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -3034,6 +3037,12 @@ packages:
     engines: {parcel: 2.x}
     peerDependencies:
       '@parcel/core': ^2.0.0
+
+  gatsby-plugin-manifest@5.13.1:
+    resolution: {integrity: sha512-F8zGMYz2tRDAzQO7hLrYv+xCFyIoeySeGsEk9j1KTdWB4liVQvLtFSXzj7yljyOTinDmA7mDStCiQFStC0rHZQ==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      gatsby: ^5.0.0-next
 
   gatsby-plugin-page-creator@5.13.1:
     resolution: {integrity: sha512-WBTQc0cFqaojS1Oh7MjBRSnLCOWWWl3L5t5LEsXwV+4L9OL6D5fLTz7K5xC34OVgfAIryuEKE/M2ZIEk3onVnw==}
@@ -9580,6 +9589,17 @@ snapshots:
       '@parcel/runtime-js': 2.8.3(@parcel/core@2.8.3)
       '@parcel/transformer-js': 2.8.3(@parcel/core@2.8.3)
       '@parcel/transformer-json': 2.8.3(@parcel/core@2.8.3)
+
+  gatsby-plugin-manifest@5.13.1(gatsby@5.13.6(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5))(graphql@16.8.2):
+    dependencies:
+      '@babel/runtime': 7.24.7
+      gatsby: 5.13.6(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5)
+      gatsby-core-utils: 4.13.1
+      gatsby-plugin-utils: 4.13.1(gatsby@5.13.6(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5))(graphql@16.8.2)
+      semver: 7.6.2
+      sharp: 0.32.6
+    transitivePeerDependencies:
+      - graphql
 
   gatsby-plugin-page-creator@5.13.1(gatsby@5.13.6(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5))(graphql@16.8.2):
     dependencies:

@@ -3,6 +3,13 @@ import type { GatsbyConfig } from "gatsby"
 module.exports = {
   plugins: [
     'gatsby-plugin-postcss',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        "icon": "src/assets/icon.png"
+      }
+    },
+
     // ...
   ],
 
