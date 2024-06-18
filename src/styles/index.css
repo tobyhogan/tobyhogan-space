@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+  
+
 html {
-    background-color: rgb(226, 218, 218);
+    background-color: rgb(238, 235, 233);
+    font-family: "Nunito", sans-serif;
 }
 
 img {
     width: 90%;
     margin: 0 auto;
+    border: 2px solid lightgray;
     border-radius: 8px;
-    margin: 0 auto 8px auto;
+    margin: 20px auto 8px auto;
+}
+
+.ProjectWidget:hover {
+    transform: scale(1.02);
+    transform-origin: center;
+
+    transition: transform 0.1s;
 }
