@@ -26,7 +26,6 @@ const projectWidgetStyles = {
 }
 
 
-
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main className="px-64">
