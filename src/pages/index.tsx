@@ -42,7 +42,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <div style={projectWidgetStyles} className="ProjectWidget">
             <a href="https://kaizenprojects.co" target="_blank">
               <img src={habtiazen_screenshot}></img>
-              <p className="mb-3">A progressive habit tracker.</p>
+              <p className="mb-3">A flexible habit tracker.</p>
             </a>
           </div>
           <div style={projectWidgetStyles} className="ProjectWidget">
