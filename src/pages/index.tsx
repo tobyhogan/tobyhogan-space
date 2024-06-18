@@ -42,10 +42,10 @@ const IndexPage: React.FC<PageProps> = () => {
             <p className="mb-3">A progressive habit tracker.</p>
           </div>
           <div style={projectWidgetStyles}>
-            <p>To added...</p>
+            <p>To be added...</p>
           </div>
           <div style={projectWidgetStyles}>
-            <p>To added...</p>
+            <p>To be added...</p>
           </div>
         </div>
         <div></div>
