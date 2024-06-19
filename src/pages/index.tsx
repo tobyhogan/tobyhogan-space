@@ -9,7 +9,6 @@ import habtiazen_screenshot from "../assets/habitazen.png"
 
 const widgetsRowStyles = {
   margin: "auto",
-  display: "flex",
   justifyContent: "space-between",
 
 }
@@ -30,15 +29,15 @@ const projectWidgetStyles = {
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <main className="px-64">
-      <h1 className="mt-5 mb-8 text-center italic text-xl">tobyhogan.space</h1>
+    <main className="">
+      <h1 className="mt-5 mb-8 text-center text-neutral-500 text-lg tracking-wider">tobyhogan.space</h1>
       <div className="px-8 mx-auto w-fit">
-        <h6 className="text-center text-3xl font-bold mb-3">Indie Dev: Toby</h6>
+        <h6 className="text-center text-3xl font-bold mb-3">Toby: Indie Dev</h6>
         <p className="w-64 text-center text-md">Hey I'm Toby, a UK based software devleoper; making some stuff people hopefully find useful :)</p>
         <p className="text-center my-5 text-lg">Some of my projects: </p>
       </div>
-      <div className="WidgetsRow mx-auto rounded-md w-fit">
-        <div style={widgetsRowStyles}>
+      <div className="mx-auto rounded-md w-fit">
+        <div style={widgetsRowStyles} className="WidgetsRow">
           <div style={projectWidgetStyles} className="ProjectWidget">
             <a href="https://kaizenprojects.co" target="_blank">
               <img src={habtiazen_screenshot}></img>
