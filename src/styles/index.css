@@ -27,8 +27,6 @@
 
     }
 
- 
-
 
 }
 
@@ -38,16 +36,19 @@ html {
     font-family: "Nunito", sans-serif;
 }
 
+a h1 {
+    margin: 8px 0 0 0;
+    font-weight: 600;
+    font-size: large;
+}
+
 img {
     width: 90%;
     margin: 0 auto;
     border: 2px solid lightgray;
     border-radius: 8px;
-    margin: 20px auto 8px auto;
+    margin: 8px auto 8px auto;
 }
-
-
-
 
 
 .ProjectWidget:hover {
