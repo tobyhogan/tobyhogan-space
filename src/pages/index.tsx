@@ -37,7 +37,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <p className="w-64 text-center text-md">Hey I'm Toby, a UK based software devleoper; making some stuff people hopefully find useful :)</p>
         <p className="text-center my-5 text-lg">Some of my projects: </p>
       </div>
-      <div className="mx-auto flex rounded-md w-fit">
+      <div className="WidgetsRow mx-auto rounded-md w-fit">
         <div style={widgetsRowStyles}>
           <div style={projectWidgetStyles} className="ProjectWidget">
             <a href="https://kaizenprojects.co" target="_blank">
