@@ -14,7 +14,7 @@ const widgetsRowStyles = {
 }
 
 const projectWidgetStyles = {
-  backgroundColor: "#f5f5f5",
+  backgroundColor: "#f1e9e9",
   border: "2px solid gray",
   borderRadius: "8px",
   width: "28%",
