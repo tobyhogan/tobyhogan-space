@@ -34,7 +34,7 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <main className="">
       <div className="flex flex-row mx-auto w-fit mb-8">
-        <h1 className="mt-5 text-center text-neutral-500 text-lg tracking-wider ml-16">tobyhogan.space</h1>
+        <h1 className="mt-5 text-center text-neutral-500 text-lg tracking-wider ml-3">tobyhogan.space</h1>
         <a href="https://github.com/tobyhogan" target="_blank"><VscGithub size={30} className='mt-4 ml-3 text-grayNew-550 hover:text-grayNew-650'/></a>
       </div>
       <div className="px-8 mx-auto w-fit">
