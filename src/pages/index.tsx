@@ -6,6 +6,9 @@ import '../styles/index.css'
 
 import habtiazen_screenshot from "../assets/habitazen.png"
 
+import { VscGithub } from "react-icons/vsc";
+import { AiOutlineSpotify } from "react-icons/ai";
+
 
 const widgetsRowStyles = {
   margin: "auto",
@@ -30,7 +33,11 @@ const projectWidgetStyles = {
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main className="">
-      <h1 className="mt-5 mb-8 text-center text-neutral-500 text-lg tracking-wider">tobyhogan.space</h1>
+      <div className="flex flex-row mx-auto w-fit mb-8">
+        <h1 className="mt-5 text-center text-neutral-500 text-lg tracking-wider ml-16">tobyhogan.space</h1>
+        <a href="https://github.com/tobyhogan" target="_blank"><VscGithub size={30} className='mt-4 ml-3 text-grayNew-550 hover:text-grayNew-650'/></a>
+        <a href="https://open.spotify.com/user/kjejvfmuzwmjmkdykulvb39hm" target="_blank"><AiOutlineSpotify size={33} className="mt-3.5 ml-2 text-grayNew-550 hover:text-grayNew-650"/></a>
+      </div>
       <div className="px-8 mx-auto w-fit">
         <h6 className="text-center text-3xl font-bold mb-3">Toby: Indie Dev</h6>
         <p className="w-64 text-center text-md">Hey I'm Toby, a UK based software devleoper; making some stuff people hopefully find useful :)</p>
@@ -55,7 +62,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <div></div>
         <div></div>
       </div>
-      <p className="text-center mt-12 font-bold">tobyhogan.space © 2024</p>
+      <p className="text-center mt-12 font-bold">© tobyhogan.space 2024</p>
     </main>
   )
 }
