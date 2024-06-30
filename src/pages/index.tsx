@@ -36,7 +36,6 @@ const IndexPage: React.FC<PageProps> = () => {
       <div className="flex flex-row mx-auto w-fit mb-8">
         <h1 className="mt-5 text-center text-neutral-500 text-lg tracking-wider ml-16">tobyhogan.space</h1>
         <a href="https://github.com/tobyhogan" target="_blank"><VscGithub size={30} className='mt-4 ml-3 text-grayNew-550 hover:text-grayNew-650'/></a>
-        <a href="https://open.spotify.com/user/kjejvfmuzwmjmkdykulvb39hm" target="_blank"><AiOutlineSpotify size={33} className="mt-3.5 ml-2 text-grayNew-550 hover:text-grayNew-650"/></a>
       </div>
       <div className="px-8 mx-auto w-fit">
         <h6 className="text-center text-3xl font-bold mb-3">Toby: Indie Dev</h6>
