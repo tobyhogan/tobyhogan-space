@@ -14,7 +14,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r 'https://github.com/tobyhogan/tobyhogan-space.git'"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public --repo 'https://github.com/tobyhogan/tobyhogan-space.git'"
   },
   "dependencies": {
     "gatsby": "^5.13.5",
