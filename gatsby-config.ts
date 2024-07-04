@@ -7,8 +7,15 @@ module.exports = {
       resolve: 'gatsby-plugin-manifest',
       options: {
         "icon": "src/assets/icon.png"
-      }
-    },
+      }},
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/src/posts`,
+    }},
+    `gatsby-transformer-remark`,
 
     // ...
   ],

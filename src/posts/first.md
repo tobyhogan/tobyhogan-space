@@ -1,0 +1,20 @@
+---
+date: 2024-07-04
+slug: my-first-blog-post
+title: My First Blog Post
+---
+
+## Introduction
+
+Hey, okay so this is the first blog post that I’m making to post on my site tobyhogan.space, I haven’t actually built the blog aspect of the site yet, I’m sort of just doing this as a test to see if I think it will be a useful tool in the development of some projects…
+
+So yeah, I thought I could use this medium as a way of providing some updates about the status of projects that I’m working on, if I did add it to the site officially, i’d probably have some sort of link at the top of the site to go to the specific blog section, that’d be cool, probably next to the github logo and t o b y  h o g a n . s p a c e tagline, if that makes sense
+
+
+Yeah, and so that’s it, I could show people it and have it be a way of me being able to communicate with anyone that’s interested in what I’m doing, or who uses anything that I’ve made pretty much.
+
+Mmm, so the current stage I’m at would probably be getting some user feedback from what I’ve made already, thing is that it’s not very polished yet, so it’s not like I want to run actual ads, because it’s just not at that standard yet, however i’d still like to get feedback, so I suppose I’m looking for that community.
+
+I made two posts on indiehackers.com a week or so ago about what i was making, and they didn’t really attract any useful attention, which makes me want to try again, as in the past I’ve got some really useful feedback from there, and it’s just quite a neat community all around. So I suppose that could be a next move? 
+
+I would like to get this blog up though, even from writing now it seems like a useful idea. I’ve sort of had blogs in the past, made some posts here and there, nothing super consistent though but I’ve always liked the idea.
