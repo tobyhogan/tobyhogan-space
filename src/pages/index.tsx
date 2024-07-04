@@ -6,8 +6,10 @@ import '../styles/index.css'
 
 import habtiazen_screenshot from "../assets/habitazen.png"
 
-import { VscGithub } from "react-icons/vsc";
-import { AiOutlineSpotify } from "react-icons/ai";
+
+
+import Header from "../components/header"
+import Footer from "../components/footer"
 
 
 const widgetsRowStyles = {
@@ -33,10 +35,7 @@ const projectWidgetStyles = {
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main className="">
-      <div className="flex flex-row mx-auto w-fit mb-8">
-        <h1 className="mt-5 text-center text-neutral-500 text-lg tracking-wider ml-3">tobyhogan.space</h1>
-        <a href="https://github.com/tobyhogan" target="_blank"><VscGithub size={30} className='mt-4 ml-3 text-grayNew-550 hover:text-grayNew-650'/></a>
-      </div>
+      <Header />
       <div className="px-8 mx-auto w-fit">
         <h6 className="text-center text-3xl font-bold mb-3">Toby: Indie Dev</h6>
         <p className="w-64 text-center text-md">Hey I'm Toby, a UK based software devleoper; making some stuff people hopefully find useful :)</p>
@@ -61,7 +60,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <div></div>
         <div></div>
       </div>
-      <p className="text-center mt-12 font-bold">© tobyhogan.space 2024</p>
+      <Footer />
     </main>
   )
 }
