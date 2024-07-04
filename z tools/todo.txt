@@ -1,0 +1,8 @@
+todo:
+
+
+
+ideas:
+
+
+- make month in post creation date be capitalised
