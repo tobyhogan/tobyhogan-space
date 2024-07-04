@@ -28,7 +28,7 @@ const BlogPage: React.FC<PageProps> = ({data: {allMarkdownRemark: { edges }, },}
       <Header />
       <div>
         <h1 className="text-center text-3xl font-bold mb-3">Blog</h1>
-        <h6 className="mt-5 text-center text-xl underline">Blog Posts:</h6>
+        <h6 className="mt-5 text-center text-xl underline">Posts:</h6>
         <div className="mx-auto w-fit mt-5 pl-10">
           {Posts}
         </div>
