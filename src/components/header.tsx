@@ -8,7 +8,7 @@ import { AiOutlineSpotify } from "react-icons/ai";
 function Header() {
   return (
       <div className="flex flex-row mx-auto w-fit mb-8">
-        <h1 className="mt-5 text-center text-neutral-500 text-lg tracking-wider ml-3">tobyhogan.space</h1>
+        <a href="/" className="mt-5 text-center text-neutral-500 text-lg tracking-wider ml-3">tobyhogan.space</a>
         <li className="my-auto pt-5 [&>*]:ml-5 text-md underline tracking-wide list-none">
           <a href="/">HOME</a>
           <a href="/blog">BLOG</a>
