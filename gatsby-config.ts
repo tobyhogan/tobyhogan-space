@@ -13,14 +13,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `blog-posts`,
-        path: `${__dirname}/src/posts/blog`,
+        path: `${__dirname}/src/posts/blog/`,
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `patch-notes-posts`,
-        path: `${__dirname}/src/posts/patch-notes`,
+        path: `${__dirname}/src/posts/patch-notes/`,
       }
     },
 

@@ -3,7 +3,7 @@ import type { HeadFC, PageProps } from "gatsby"
 
 import { graphql } from "gatsby"
 
-import PostLink from '../components/post-link'
+import PostLink from '../components/post-links/blog-link.jsx'
 
 import '../styles/global.css'
 import '../styles/index.css'
@@ -19,7 +19,7 @@ import Footer from "../components/footer"
 const BlogPage: React.FC<PageProps> = ({data: {allMarkdownRemark: { edges }, },}) => {
 
   const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .filter(edge => !!edge.node.frontmatter.date)
     .map(edge => <PostLink key={edge.node.id} post={edge.node}/>)
 
 

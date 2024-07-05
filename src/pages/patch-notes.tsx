@@ -3,8 +3,7 @@ import type { HeadFC, PageProps } from "gatsby"
 
 import { graphql } from "gatsby"
 
-import PostLink from '../components/post-link'
-
+import PostLink from '../components/post-links/patch-notes-link.jsx'
 import '../styles/global.css'
 import '../styles/index.css'
 
@@ -19,7 +18,8 @@ import Footer from "../components/footer"
 const PatchNotesPage: React.FC<PageProps> = ({data: {allMarkdownRemark: { edges }, },}) => {
 
   const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .filter(edge => !!edge.node.frontmatter.date)
+    .filter(edge => true)
     .map(edge => <PostLink key={edge.node.id} post={edge.node}/>)
 
 
@@ -27,8 +27,8 @@ const PatchNotesPage: React.FC<PageProps> = ({data: {allMarkdownRemark: { edges 
     <main className="">
       <Header />
       <div>
-        <h1 className="text-center text-3xl font-bold mb-3">Blog</h1>
-        <h6 className="mt-5 text-center text-xl underline">Posts:</h6>
+        <h1 className="text-center text-3xl font-bold mb-3">Patch Notes</h1>
+        <h6 className="mt-5 text-center text-xl underline">Entries:</h6>
         <div className="mx-auto w-fit mt-5 pl-10">
           {Posts}
         </div>
