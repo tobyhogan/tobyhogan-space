@@ -42,7 +42,7 @@ export default PatchNotesPage
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { frontmatter: { date: DESC }}) {
+     allMarkdownRemark(sort: { frontmatter: { date: DESC }}, filter: {fileAbsolutePath: {regex: "/(patch-notes)/"  }}) {
       edges {
         node {
           id
