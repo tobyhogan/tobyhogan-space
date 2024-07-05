@@ -2,16 +2,20 @@ import * as React from "react"
 import { graphql } from "gatsby"
 
 
+import Footer from '../../components/footer'
+
+
 export default function BlogPostTemplate({
   data, /* this prop will be injected by the GraphQL query below. */}) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   return (
     <div className="mt-6">
-      <a href="/blog" className="ml-[3vw] border-2 rounded-md border-black px-3 py-0.5 bg-grayNew-300 fixed">Back</a>
-      <h1 className="text-2xl mt-6 text-center">{frontmatter.title}</h1>
+      <a href="/blog" className="ml-[3vw] -mt-6 border-2 rounded-md border-black px-3 py-0.5 bg-grayNew-300 md:fixed sm:static">Back</a>
+      <h1 className="text-2xl mt-14 text-center">{frontmatter.title}</h1>
       <h2 className="font-bold text-center mt-3">{frontmatter.date}</h2>
-      <div dangerouslySetInnerHTML={{ __html: html }} className="md:px-[30vw] sm:px-[12vw] mt-12 mb-20 text-[17px] [&>h2]:text-xl [&>h2]:underline [&>h2]:-ml-3 whitespace-break-spaces"/>
+      <div dangerouslySetInnerHTML={{ __html: html }} className="md:px-[30vw] sm:px-[12vw] mt-12 text-[17px] [&>h2]:text-xl [&>h2]:underline [&>h2]:-ml-3 whitespace-break-spaces"/>
+      <Footer />
     </div>
   )
 }
