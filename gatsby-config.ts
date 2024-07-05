@@ -12,9 +12,18 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `posts`,
-        path: `${__dirname}/src/posts`,
-    }},
+        name: `blog-posts`,
+        path: `${__dirname}/src/posts/blog`,
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `patch-notes-posts`,
+        path: `${__dirname}/src/posts/patch-notes`,
+      }
+    },
+
     `gatsby-transformer-remark`,
 
     // ...
