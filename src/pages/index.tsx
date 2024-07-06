@@ -44,7 +44,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <div className="mx-auto rounded-md w-fit">
         <div style={widgetsRowStyles} className="WidgetsRow">
           <div style={projectWidgetStyles} className="ProjectWidget">
-            <a href="https://kaizenprojects.co" target="_blank">
+            <a href="https://tobyhogan.github.io/habit-tracker-landing-page/" target="_blank">
               <h1 className="">Habitazen</h1>
               <img src={habtiazen_screenshot}></img>
               <p className="mb-3">A flexible habit tracker.</p>
