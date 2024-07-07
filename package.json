@@ -12,7 +12,13 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy1": "gatsby build --prefix-paths && gh-pages -d public | cat > CNAME | echo 'tobyhogan.space' > CNAME",
+    "test123": "cat > test.txt",
+    "test1233": "echo 'text511' > test.txt",
+    "test141": "cat > test.txt | echo 'text511' > test.txt",
+    "test241": "cat > test.txt && echo 'text511' > test.txt"
+
   },
   "dependencies": {
     "gatsby": "^5.13.5",
