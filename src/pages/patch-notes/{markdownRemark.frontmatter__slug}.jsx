@@ -16,10 +16,8 @@ export default function BlogPostTemplate({
       <a href="/patch-notes" className="ml-[3vw] -mt-8 border-2 rounded-md border-black px-3 py-0.5 bg-grayNew-300 md:fixed sm:static">Back</a>
       <h1 className="text-2xl md:mt-16 sm:mt-4 text-center">{frontmatter.title}</h1>
       <h2 className="font-bold text-center mt-3">{frontmatter.date}</h2>
-      <div
-        dangerouslySetInnerHTML={{ __html: html }}
-        className="md:px-[30vw] sm:px-[12vw] mt-12 text-[17px] [&>h2]:text-xl [&>h2]:underline [&>h2]:-ml-3 whitespace-break-spaces [&>ul]:list-disc [&>ul]:whitespace-normal [&>ul]:ml-[2vw]"
-      />
+      <div dangerouslySetInnerHTML={{ __html: html }}
+        className="md:px-[30vw] sm:px-[12vw] mt-12 text-[17px] [&>h2]:text-xl [&>h2]:underline [&>h2]:-ml-3 whitespace-break-spaces [&>ul]:list-disc [&>ul]:whitespace-normal [&>ul]:ml-[2vw]"/>
       <Footer />
     </div>
   )
