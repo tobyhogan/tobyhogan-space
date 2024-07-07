@@ -22,7 +22,7 @@ const MePage: React.FC<PageProps> = () => {
           <li>
             <h2 className="text-lg">Music</h2>
             <h3>- Projects:</h3>
-            <a href="https://browser-music-viewer-9s0daum6l-toby-hogans-projects.vercel.app/" className="ml-4">- <u>Browser Song Stem Mixer</u></a>
+            <a href="https://browser-music-viewer-9s0daum6l-toby-hogans-projects.vercel.app/" target="_blank" className="ml-4">- <u>Browser Song Stem Mixer</u></a>
           </li>
 
           <li>Photo</li>
