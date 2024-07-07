@@ -1,8 +1,7 @@
 ---
 date: 2024-12-31
 slug: d31-12-2024-9
-title: Title
+title: Patch Notes vX.X
 ---
 
-
-text
+- changes
