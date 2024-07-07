@@ -4,6 +4,8 @@ import type { HeadFC, PageProps } from "gatsby"
 import { graphql } from "gatsby"
 
 import PostLink from '../components/post-links/blog-link.jsx'
+import '../styles/global.css'
+import '../styles/index.css'
 
 import Header from "../components/header"
 import Footer from "../components/footer"
