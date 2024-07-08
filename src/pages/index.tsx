@@ -38,7 +38,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <Header />
       <div className="px-8 mx-auto w-fit">
         <h6 className="text-center text-3xl font-bold mb-3">Toby: Indie Dev</h6>
-        <p className="w-64 text-center text-md">Hey I'm Toby, a UK based software devleoper; making some stuff people hopefully find useful :)</p>
+        <p className="w-64 text-center text-md">Hey I'm Toby, a UK based software developer; making some stuff people hopefully find useful :)</p>
         <p className="text-center my-5 text-lg">Some of my projects: </p>
       </div>
       <div className="mx-auto rounded-md w-fit">
