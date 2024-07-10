@@ -21,14 +21,18 @@ const MePage: React.FC<PageProps> = () => {
         <ul className="mt-8 ml-8">
           <li>
             <h2 className="text-lg">Music</h2>
-            <h3>- Projects:</h3>
-            <a href="https://browser-music-viewer-9s0daum6l-toby-hogans-projects.vercel.app/" target="_blank" className="ml-4">- <u>Browser Song Stem Mixer</u></a>
+            <h3>- My Projects:</h3>
+            <a href="https://browser-music-viewer-9s0daum6l-toby-hogans-projects.vercel.app/" target="_blank" className="ml-4">- <u>Web App: Track Stem Mixer</u></a>
+            <h3>- Links:</h3>
+            <a href="https://open.spotify.com/user/kjejvfmuzwmjmkdykulvb39hm/playlists" target="_blank" className="ml-4">- <u>Favourite Artists ⇒ Spotify</u></a>
           </li>
 
           <li>Photo</li>
           <li>Art</li>
           <li></li>
         </ul>
+
+        <a href="/admin-page">test</a>
       </section>
 
       

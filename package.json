@@ -12,8 +12,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "deploy1": "gatsby build --prefix-paths && gh-pages -d public --cname ''tobyhogan.space'' ",
+    "deploy1": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public --cname ''tobyhogan.space'' ",
     
     "deploy2": "gatsby build --prefix-paths && gh-pages -d public | cat > CNAME | echo 'tobyhogan.space' > CNAME",
     "test123": "cat > test.txt",
