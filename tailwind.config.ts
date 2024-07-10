@@ -22,6 +22,9 @@ export default {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      borderWidth: {
+        '1': '1px',
+      },
       colors: {
         grayNew: {
           '100': '#F8F8F8',

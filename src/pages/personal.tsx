@@ -12,7 +12,7 @@ import '../styles/index.css'
 
 
 
-const MePage: React.FC<PageProps> = () => {
+const PersonalPage: React.FC<PageProps> = () => {
   return (
     <main className="">
       <Header />
@@ -46,6 +46,6 @@ const MePage: React.FC<PageProps> = () => {
   )
 }
 
-export default MePage
+export default PersonalPage
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => <title>Personal Page</title>

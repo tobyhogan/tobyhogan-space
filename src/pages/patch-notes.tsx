@@ -57,4 +57,4 @@ export const pageQuery = graphql`
 `
 
 
-export const Head: HeadFC = () => <title>Blog Page</title>
+export const Head: HeadFC = () => <title>Patch Notes</title>

@@ -12,7 +12,7 @@ import Footer from "../components/footer"
 
 
 
-const IndexPage: React.FC<PageProps> = () => {
+const AdminPage: React.FC<PageProps> = () => {
   return (
     <main className="">
       <Header />
@@ -28,6 +28,6 @@ const IndexPage: React.FC<PageProps> = () => {
   )
 }
 
-export default IndexPage
+export default AdminPage
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => <title>Admin Page</title>
