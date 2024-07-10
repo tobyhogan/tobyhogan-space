@@ -34,7 +34,7 @@ const MePage: React.FC<PageProps> = () => {
         </ul>
 
         <div className="mt-20 text-center">
-          <a href="/admin-page" className="">⊗</a>
+          <a href="/admin-page" target="_blank" className="">⊗</a>
         </div>
 
       </section>
