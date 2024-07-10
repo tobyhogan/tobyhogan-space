@@ -1,7 +1,7 @@
 ---
 date: 2024-12-31
-slug: d31-12-2024-9
-title: Patch Notes vX.X
+slug: b31-12-2024-9
+title: blogTitle
 ---
 
-- changes
+writing
