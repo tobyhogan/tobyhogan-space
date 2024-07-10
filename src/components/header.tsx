@@ -13,8 +13,8 @@ function Header() {
           <a href="/" className="underline hover:bg-grayNew-275">HOME</a>
           <a href="/blog" className="underline hover:bg-grayNew-275">BLOG</a>
           <a href="/patch-notes" className="underline hover:bg-grayNew-275">PATCH NOTES</a>
-          <a href="/patch-notes" className="underline hover:bg-grayNew-275">INFO</a>
           <a href="/personal" className="underline hover:bg-grayNew-275">ME</a>
+          <a href="/info" className="underline hover:bg-grayNew-275">INFO</a>
         </ul>
         <a href="https://github.com/tobyhogan" target="_blank"><VscGithub size={30} className='mt-4 ml-6 text-grayNew-550 hover:text-grayNew-650'/></a>
       </div>

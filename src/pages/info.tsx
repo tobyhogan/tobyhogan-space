@@ -14,7 +14,11 @@ const InfoPage: React.FC<PageProps> = () => {
     <main className="">
       <Header />
       <div className="px-8 mx-auto w-fit">
-        <h6 className="text-center text-3xl font-bold mb-3">Info</h6>
+        <h1 className="text-center text-3xl font-bold mb-3">Information</h1>
+        <h3 className="text-center mt-4">Contact:</h3>
+        <div className="ml-5">
+          <p className="mt-4 text-center">- Email: tobyhogan44@gmail.com</p>
+        </div>
       </div>
       <Footer />
     </main>

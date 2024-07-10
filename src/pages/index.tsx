@@ -37,7 +37,7 @@ const IndexPage: React.FC<PageProps> = () => {
     <main className="">
       <Header />
       <div className="px-8 mx-auto w-fit">
-        <h6 className="text-center text-3xl font-bold mb-3">Toby: Indie Dev</h6>
+        <h1 className="mb-3">Toby: Indie Dev</h1>
         <p className="w-64 text-center text-md">Hey I'm Toby, a UK based software developer; making some stuff people hopefully find useful :)</p>
         <p className="text-center my-5 text-lg">Some of my projects: </p>
       </div>
@@ -45,7 +45,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <div style={widgetsRowStyles} className="WidgetsRow">
           <div style={projectWidgetStyles} className="ProjectWidget">
             <a href="https://tobyhogan.github.io/habit-tracker-landing-page/" target="_blank">
-              <h1 className="">Habitazen</h1>
+              <h6 className="">Habitazen</h6>
               <img src={habtiazen_screenshot}></img>
               <p className="mb-3">A flexible habit tracker.</p>
             </a>

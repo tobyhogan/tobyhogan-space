@@ -40,6 +40,42 @@ html {
 
 }
 
+h1 {
+
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;;
+
+}
+
+h2 {
+
+  font-size: 23px;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+h3 {
+
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+h4 {
+
+  font-weight: 600;
+  font-size: 18px;
+
+
+}
+
+h5 {
+  font-size: 17px;
+}
+
 
 a h1 {
     margin: 8px 0 0 0;
