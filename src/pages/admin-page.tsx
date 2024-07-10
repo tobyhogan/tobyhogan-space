@@ -18,6 +18,10 @@ const IndexPage: React.FC<PageProps> = () => {
       <Header />
       <div className="px-8 mx-auto w-fit">
         <h1 className="text-center text-3xl font-bold mb-3">Admin Page</h1>
+        <h2 className="text-center text-xl">Links:</h2>
+        <ul className="w-fit mx-auto mt-2">
+          <li><a href="https://tobyhogan.github.io/metrics-dashboard/">- <u>Metrics Tracker</u></a></li>
+        </ul>
       </div>
       <Footer />
     </main>
