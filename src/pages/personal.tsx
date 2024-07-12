@@ -32,15 +32,7 @@ const PersonalPage: React.FC<PageProps> = () => {
           <li><h4>Art:</h4></li>
           <li></li>
         </ul>
-
-        <div className="mt-20 text-center">
-          <a href="/admin-page">⊗</a>
-        </div>
-
       </section>
-
-      
-      
       <Footer />
     </main>
   )
