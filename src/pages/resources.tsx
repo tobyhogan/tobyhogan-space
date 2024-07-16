@@ -20,7 +20,7 @@ const BlogPage: React.FC<PageProps> = () => {
       <Header />
       <div>
         <h1 className="mb-3">Resources</h1>
-        <h4 className="mt-5">Founders Exchange KZ:</h4>
+        <h4 className="mt-5 text-center">Founders Exchange KZ:</h4>
         <p className="mt-3 text-center"><a href="https://discord.gg/bQuEmWJ5dn"><u>Discord Invite Link</u></a> / (bQuEmWJ5dn)</p>
       </div>
       <Footer />
