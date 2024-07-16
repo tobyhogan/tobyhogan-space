@@ -18,7 +18,7 @@ const InfoPage: React.FC<PageProps> = () => {
       <div className="px-8 mx-auto w-fit">
         <h1 className="text-center text-3xl font-bold mb-3">Information</h1>
         <h3 className="text-center mt-4">Contact & Profiles:</h3>
-        <div className="ml-8 text-start flex flex-col">
+        <div className="ml-10 mt-2 text-start flex flex-col">
           <p className="mt-4">- Email: tobyhogan44@gmail.com; <a href="mailto:tobyhogan44@gmail.com"><u>Link</u></a></p>
           <p>- Discord: @dev_tobyh</p>
           <a href="https://www.indiehackers.com/Dev_TobyH" target="_blank">- IndieHackers: @<u>Dev_TobyH</u></a>
