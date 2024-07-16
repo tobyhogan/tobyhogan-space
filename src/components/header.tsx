@@ -13,6 +13,7 @@ function Header() {
           <a href="/" className="underline hover:bg-grayNew-275">HOME</a>
           <a href="/blog" className="underline hover:bg-grayNew-275">BLOG</a>
           <a href="/patch-notes" className="underline hover:bg-grayNew-275">PATCH NOTES</a>
+          <a href="/resources" className="underline hover:bg-grayNew-275">RESOURCES</a>
           <a href="/personal" className="underline hover:bg-grayNew-275">ME</a>
           <a href="/info" className="underline hover:bg-grayNew-275">INFO</a>
         </ul>
