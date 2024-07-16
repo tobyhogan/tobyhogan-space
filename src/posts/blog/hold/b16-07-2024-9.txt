@@ -1,0 +1,10 @@
+---
+date: 2024-07-16
+slug: b16-07-2024-9
+title: Updates & Dist v Dev
+---
+
+So there is this conundrum about basically development vs distribution which is kind of like a chicken and egg problem. It's like what's the point in developing if there's no-one who is using the product, so developing would have no impact on anyone, then there's the idea that's like what's the point in "distributing" or showing people that the product exists if it's not good enough to use without having too many issues.
+
+It seems there's quite a simple solution to this problem which is to develop it until it's usable, then show some people, and get into a sort of loop around that possibly? But how can I even show people, I feel like at it's current state, it's definitely "usable", but is hard to market because the features that will differentiate it from other habit trackers are much more advanced and will take longer to develop, but working on something for that long without any users seems kinda... 
+
