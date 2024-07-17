@@ -110,6 +110,18 @@ a h1 {
     font-size: large;
 }
 
+
+a.Link1 {
+  display: flex;
+  flex-direction: row;
+  
+  p {
+    color: rgb(67, 67, 109);
+  }
+
+}
+
+
 img {
     width: 90%;
     margin: 0 auto;

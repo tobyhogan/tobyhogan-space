@@ -21,10 +21,10 @@ const InfoPage: React.FC<PageProps> = () => {
         <div className="ml-10 mt-2 text-start flex flex-col">
           <p className="mt-4">- <b>Email:</b> tobyhogan44@gmail.com</p>
           <p>- <b>Discord: </b>@dev_tobyh</p>
-          <a href="https://www.indiehackers.com/Dev_TobyH" target="_blank">- <b>IndieHackers:</b> @<u>Dev_TobyH</u></a>
-          <a href="https://github.com/tobyhogan" target="_blank">- <b>GitHub:</b> @<u>tobyhogan</u></a>
-          <a href="https://mastodon.social/@tobyhogan" target="_blank">- <b>Mastodon:</b> @<u>tobyhogan</u></a>
-          <a href="https://stackoverflow.com/users/14429974/toby-hogan" target="_blank">- <b>Stack Overflow: </b><u>Toby Hogan; user:14429974</u></a>
+          <a href="https://www.indiehackers.com/Dev_TobyH" target="_blank" className="Link1">-&nbsp;<b>IndieHackers:&nbsp;</b><p>@<u>Dev_TobyH</u></p></a>
+          <a href="https://github.com/tobyhogan" target="_blank" className="Link1">-&nbsp;<b>GitHub:&nbsp;</b><p>@<u>tobyhogan</u></p></a>
+          <a href="https://mastodon.social/@tobyhogan" target="_blank" className="Link1">-&nbsp;<b>Mastodon:&nbsp;</b><p>@<u>tobyhogan</u></p></a>
+          <a href="https://stackoverflow.com/users/14429974/toby-hogan" target="_blank" className="Link1">-&nbsp;<b>Stack Overflow:&nbsp;</b><p><u>Toby Hogan; user:14429974</u></p></a>
         </div>
       </div>
       <Footer />

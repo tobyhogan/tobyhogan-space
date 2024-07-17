@@ -25,13 +25,13 @@ const PersonalPage: React.FC<PageProps> = () => {
             <h5>- My Projects:</h5>
             <a href="https://browser-music-viewer-9s0daum6l-toby-hogans-projects.vercel.app/" target="_blank" className="ml-4">- <u>Web App: Track Stem Mixer</u></a>
             <h5>- Links:</h5>
-            <a href="https://open.spotify.com/user/kjejvfmuzwmjmkdykulvb39hm/playlists" target="_blank" className="ml-4">- <u>My Playlists of Favourite Artists ⇒ Spotify</u></a>
+            <a href="https://open.spotify.com/user/kjejvfmuzwmjmkdykulvb39hm/playlists" target="_blank" className="Link1 ml-4">- <u>My Playlists of Favourite Artists ⇒ Spotify</u></a>
           </li>
 
           <li>
             <h4>Language:</h4>
             <h5>- Links:</h5>
-            <a href="https://www.duolingo.com/profile/tobyhogann" target="_blank" className="ml-4">- <u>Duolingo: @tobyhogann</u></a>
+            <a href="https://www.duolingo.com/profile/tobyhogann" target="_blank" className="Link1 ml-4">- <u>Duolingo: @tobyhogann</u></a>
           </li>
           <li><h4>Photo:</h4></li>
           <li><h4>Art:</h4></li>
