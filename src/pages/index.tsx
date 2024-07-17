@@ -45,7 +45,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <div style={widgetsRowStyles} className="WidgetsRow">
           <div style={projectWidgetStyles} className="ProjectWidget">
             <a href="https://tobyhogan.github.io/habit-tracker-landing-page/" target="_blank">
-              <h6 className="">Habitazen</h6>
+              <h5 className="mt-2 underline">Habitazen</h5>
               <img src={habtiazen_screenshot}></img>
               <p className="mb-3">A flexible habit tracker.</p>
             </a>
