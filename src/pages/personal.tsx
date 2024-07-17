@@ -31,7 +31,7 @@ const PersonalPage: React.FC<PageProps> = () => {
           <li>
             <h4>Language:</h4>
             <h5>- Links:</h5>
-            <a href="https://www.duolingo.com/profile/tobyhogann" target="_blank" className="ml-4">- <u>Duolingo @tobyhogann</u></a>
+            <a href="https://www.duolingo.com/profile/tobyhogann" target="_blank" className="ml-4">- <u>Duolingo: @tobyhogann</u></a>
           </li>
           <li><h4>Photo:</h4></li>
           <li><h4>Art:</h4></li>

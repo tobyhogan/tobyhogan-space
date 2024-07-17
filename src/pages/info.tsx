@@ -23,6 +23,7 @@ const InfoPage: React.FC<PageProps> = () => {
           <p>- <b>Discord: </b>@dev_tobyh</p>
           <a href="https://www.indiehackers.com/Dev_TobyH" target="_blank">- <b>IndieHackers:</b> @<u>Dev_TobyH</u></a>
           <a href="https://github.com/tobyhogan" target="_blank">- <b>GitHub:</b> @<u>tobyhogan</u></a>
+          <a href="https://mastodon.social/@tobyhogan" target="_blank">- <b>Mastodon:</b> @<u>tobyhogan</u></a>
           <a href="https://stackoverflow.com/users/14429974/toby-hogan" target="_blank">- <b>Stack Overflow: </b><u>Toby Hogan; user:14429974</u></a>
         </div>
       </div>

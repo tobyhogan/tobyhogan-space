@@ -11,33 +11,60 @@ html {
 
 
 @media only screen and (max-width: 800px) {
-    .WidgetsRow {
 
-        display: flex;
-        flex-direction: column;
-        width: 300px;
+  .ToggleNav {
+    display: auto;
+  }
+
+  .FullNav {
+    display: none;
+  }
 
 
-    }
+  .WidgetsRow {
 
-    .ProjectWidget {
-        width: 100% !important;
-        height: 28% !important;
-        
-    }
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+
+  }
+
+  .ProjectWidget {
+
+    width: 100% !important;
+    height: 28% !important;
+      
+  }
 
 }
 
 @media only screen and (min-width: 801px) {
-    .WidgetsRow {
-        display: flex;
-        flex-direction: row;
-
-        padding: 0 5% 0 5%;
-
-    }
 
 
+  .ToggleNav {
+    display: none;
+  }
+
+  .FullNav {
+    display: auto;
+
+  }
+
+  .WidgetsRow {
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 0 5% 0 5%;
+
+  }
+
+
+}
+
+.ToggleNav div {
+  background-color: rgb(230, 224, 223);
 }
 
 h1 {
