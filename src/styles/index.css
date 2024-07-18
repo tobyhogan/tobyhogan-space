@@ -111,13 +111,20 @@ a h1 {
 }
 
 
+p.LContainer1 {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+
 a.Link1 {
   display: flex;
   flex-direction: row;
   
-  p {
-    color: rgb(67, 67, 109);
-  }
+  color: rgb(67, 67, 109);
+
 
 }
 
