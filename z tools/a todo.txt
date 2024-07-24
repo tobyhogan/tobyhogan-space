@@ -1,5 +1,7 @@
 todo:
 
+- make dark mode and have be default from system theme
+
 
 
 ideas:
