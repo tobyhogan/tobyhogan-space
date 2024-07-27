@@ -1,4 +1,9 @@
+
+
 todo:
+
+
+- make dialogue happen when you copy text e.g. from info, so you know it's complete
 
 - make dark mode and have be default from system theme
 
