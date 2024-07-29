@@ -4,7 +4,9 @@ import type { HeadFC, PageProps } from "gatsby"
 import '../styles/global.css'
 import '../styles/index.css'
 
+// @ts-ignore
 import habtiazen_screenshot from "../assets/habitazen.png"
+
 
 
 
@@ -46,7 +48,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <div style={projectWidgetStyles} className="ProjectWidget">
             <a href="https://tobyhogan.github.io/habit-tracker-landing-page/" target="_blank">
               <h5 className="mt-2 underline">Habitazen</h5>
-              <img src={habtiazen_screenshot}></img>
+              <img src={habtiazen_screenshot} className="Image1"></img>
               <p className="mb-3">A flexible habit tracker.</p>
             </a>
           </div>

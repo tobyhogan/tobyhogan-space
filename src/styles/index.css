@@ -129,16 +129,21 @@ a.Link1 {
   
   color: rgb(67, 67, 109);
 
-
 }
 
 
-img {
+.Image1 {
   width: 90%;
   margin: 0 auto;
   border: 2px solid lightgray;
   border-radius: 8px;
   margin: 8px auto 8px auto;
+}
+
+.Image2 {
+  border: 2px solid rgb(97, 97, 97);
+  border-radius: 8px;
+  margin: 10px 10px;
 }
 
 

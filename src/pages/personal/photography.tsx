@@ -8,8 +8,11 @@ import Footer from "../../components/footer"
 
 
 
-import '../styles/global.css'
-import '../styles/index.css'
+import '../../styles/global.css'
+import '../../styles/index.css'
+
+// @ts-ignore
+import moss_bricks_1 from "../../assets/photography/moss-bricks-1.jpg"
 
 
 
@@ -18,12 +21,22 @@ const PhotographyPage: React.FC<PageProps> = () => {
     <main className="">
       <Header />
       <div className="mx-auto w-fit flex flex-col">
-        <h1 className="text-center text-3xl font-bold mb-3">Photography:</h1>
-        <div>
-          <div>
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+        <h1 className="text-center text-3xl font-bold mb-3">Photography: </h1>
+        <div className="mt-8 flex flex-col">
+          <div className="flex flex-row">
+            <img src={moss_bricks_1} alt="" className="Image2 w-[450px]"/>
+            <img src={moss_bricks_1} alt="" className="Image2 w-[450px]"/>
+            <img src={moss_bricks_1} alt="" className="Image2 w-[450px]"/>
+          </div>
+          <div className="flex flex-row">
+            <img src={moss_bricks_1} alt="" className="Image2 w-[450px]"/>
+            <img src={moss_bricks_1} alt="" className="Image2 w-[450px]"/>
+            <img src={moss_bricks_1} alt="" className="Image2 w-[450px]"/>
+          </div>
+          <div className="flex flex-row">
+            <img src={moss_bricks_1} alt="" className="Image2 w-[450px]"/>
+            <img src={moss_bricks_1} alt="" className="Image2 w-[450px]"/>
+            <img src={moss_bricks_1} alt="" className="Image2 w-[450px]"/>
           </div>
         </div>
     
