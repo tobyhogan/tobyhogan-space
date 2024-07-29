@@ -21,7 +21,7 @@ const PersonalPage: React.FC<PageProps> = () => {
           <li>
             <h4>Music:</h4>
             <h5>- My Projects:</h5>
-            <a href="https://browser-music-viewer-9s0daum6l-toby-hogans-projects.vercel.app/" target="_blank" className="Link1 ml-4">-&nbsp;<u>Web App: Track Stem Mixer</u></a>
+            <a href="https://browser-music-viewer.vercel.app/" target="_blank" className="Link1 ml-4">-&nbsp;<u>Web App: Track Stem Mixer</u></a>
             <h5>- Links:</h5>
             <a href="https://open.spotify.com/user/kjejvfmuzwmjmkdykulvb39hm/playlists" target="_blank" className="Link1 ml-4">-&nbsp;<u>My Playlists of Favourite Artists ⇒ Spotify</u></a>
           </li>
