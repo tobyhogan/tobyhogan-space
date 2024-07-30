@@ -1,5 +1,5 @@
 import * as React from "react"
-import type { HeadFC, PageProps } from "gatsby"
+import { Link, type HeadFC, type PageProps } from "gatsby"
 
 import Header from "../components/header"
 import Footer from "../components/footer"
@@ -33,7 +33,7 @@ const PersonalPage: React.FC<PageProps> = () => {
           </li>
           <li>
             <h4>Photo:</h4>
-            <a href="/personal/photography" className="Link1 ml-4">-&nbsp;<u>My Photography Gallery</u></a>
+            <Link to="/personal/photography" className="Link1 ml-4">-&nbsp;<u>My Photography Gallery</u></Link>
 
           </li>
           <li><h4>Art:</h4></li>

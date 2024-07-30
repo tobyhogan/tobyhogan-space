@@ -1,5 +1,6 @@
 import * as React from "react"
 import { useState, useEffect, useRef } from "react"
+import { Link } from "gatsby";
 
 import { VscGithub } from "react-icons/vsc";
 import { AiOutlineSpotify } from "react-icons/ai";
@@ -126,18 +127,18 @@ function Header() {
 
   const navList = 
     <>
-      <a href="/" className="underline hover:bg-grayNew-275">HOME</a>
-      <a href="/blog" className="underline hover:bg-grayNew-275">BLOG</a>
-      <a href="/patch-notes" className="underline hover:bg-grayNew-275">PATCHES</a>
-      <a href="/resources" className="underline hover:bg-grayNew-275">RESOURCES</a>
-      <a href="/personal" className="underline hover:bg-grayNew-275">ME</a>
-      <a href="/info" className="underline hover:bg-grayNew-275">INFO</a>
+      <Link to="/" className="underline hover:bg-grayNew-275">HOME</Link>
+      <Link to="/blog" className="underline hover:bg-grayNew-275">BLOG</Link>
+      <Link to="/patch-notes" className="underline hover:bg-grayNew-275">PATCHES</Link>
+      <Link to="/resources" className="underline hover:bg-grayNew-275">RESOURCES</Link>
+      <Link to="/personal" className="underline hover:bg-grayNew-275">ME</Link>
+      <Link to="/info" className="underline hover:bg-grayNew-275">INFO</Link>
     </>
 
 
   return (
       <div className="flex flex-row mx-auto w-fit mb-8">
-        <a href="/" className="mt-5 ml-4 mr-4 text-center text-neutral-500 text-lg tracking-wider hover:underline">tobyhogan.space</a>
+        <Link to="/" className="mt-5 ml-4 mr-4 text-center text-neutral-500 text-lg tracking-wider hover:underline">tobyhogan.space</Link>
         <div className="FullNav">
           <ul className="my-auto pt-5 [&>a]:ml-5 text-md tracking-wide list-none">
             {navList}
