@@ -33,7 +33,7 @@ const PersonalPage: React.FC<PageProps> = () => {
           </li>
           <li>
             <h4>Photo:</h4>
-            <a href="/personal/photography" className="Link1 ml-4">-&nbsp;<u>Photography Gallery</u></a>
+            <a href="/personal/photography" className="Link1 ml-4">-&nbsp;<u>My Photography Gallery</u></a>
 
           </li>
           <li><h4>Art:</h4></li>
