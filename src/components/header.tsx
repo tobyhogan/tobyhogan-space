@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react"
 
 import { VscGithub } from "react-icons/vsc";
 import { AiOutlineSpotify } from "react-icons/ai";
+import { IoInvertMode } from "react-icons/io5";
 import { MdMenu } from "react-icons/md";
 
 
@@ -12,6 +13,90 @@ function Header() {
 
   const wrapperRef = useRef(null);
   useOutsideAlerter(wrapperRef);
+
+
+  const [isDark, setIsDark] = useState(false)
+
+  useEffect(() => {
+
+
+    if (!localStorage.getItem("theme")) {
+
+      
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+
+        localStorage.setItem("theme", "dark")
+        document.body.classList.add('dark')
+  
+        setIsDark(true)
+          
+
+      } else {
+
+        localStorage.setItem("theme", "dark")
+        document.body.classList.add('dark')
+  
+        setIsDark(true)
+
+      }
+
+
+    } else if (localStorage.getItem("theme") == "light") {
+
+      
+      
+      document.body.classList.add('light');
+
+      setIsDark(false)
+
+
+
+    } else if (localStorage.getItem("theme") == "dark") {
+
+      
+      
+      document.body.classList.add('dark');
+
+      setIsDark(true)
+
+    }
+
+
+  }, [])
+
+
+  function handleToggleTheme() {
+
+
+    if (localStorage.getItem("theme") == "light") {
+
+
+      localStorage.setItem("theme", "dark")
+
+      
+      document.body.classList.add('dark');
+      document.body.classList.remove('light');
+
+      setIsDark(true)
+      
+
+    } else if (localStorage.getItem("theme") == "dark") {
+
+      localStorage.setItem("theme", "light")
+
+      document.body.classList.add('light');
+      document.body.classList.remove('dark');
+
+      setIsDark(false)
+
+    } 
+
+
+  }
+
+
+
+
 
 
   
@@ -73,6 +158,10 @@ function Header() {
             : null }
 
         </div>
+        <button onClick={handleToggleTheme} className="mt-3 ml-8">
+          <IoInvertMode size={22}/>
+
+        </button>
       </div>
     )
 }

@@ -2,9 +2,18 @@
 
 
 
+
 html {
-  background-color: rgb(221, 215, 214);
+
+  .light {
+    background-color: rgb(221, 215, 214);
+  }
+  .dark {
+    background-color: rgb(201, 195, 194);
+  }
+
   font-family: "Nunito", sans-serif;
+  
 }
 
 
@@ -41,6 +50,11 @@ html {
     margin-left: 0;
   }
 
+  .Row1 {
+    flex: 50%;
+    max-width: 50%;
+  }
+
 }
 
 @media only screen and (min-width: 801px) {
@@ -62,6 +76,13 @@ html {
 
     padding: 0 5% 0 5%;
 
+  }
+
+
+
+  .Row1 {
+    flex: 100%;
+    max-width: 100%;
   }
 
 
@@ -152,4 +173,26 @@ a.Link1 {
   transform-origin: center;
 
   transition: transform 0.1s;
+}
+
+
+
+.Column1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5px 0 0;
+  
+}
+
+/* Create four equal columns that sits next to each other */
+.Row1 {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.Row1 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
