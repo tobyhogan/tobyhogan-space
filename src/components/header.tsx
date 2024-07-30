@@ -1,5 +1,5 @@
 import * as React from "react"
-import { useState } from "react"
+import { useState, useEffect, useRef } from "react"
 
 import { VscGithub } from "react-icons/vsc";
 import { AiOutlineSpotify } from "react-icons/ai";
@@ -9,6 +9,35 @@ import { MdMenu } from "react-icons/md";
 function Header() {
 
   const [navOpen, setNavOpen] = useState(false)
+
+  const wrapperRef = useRef(null);
+  useOutsideAlerter(wrapperRef);
+
+
+  
+  
+  function useOutsideAlerter(ref: any) {
+
+    useEffect(() => {
+
+      function handleClickOutside(event: any) {
+
+        if (ref.current && !ref.current.contains(event.target)) {
+          
+          setNavOpen(false)
+
+        }}
+  
+      document.addEventListener("mousedown", handleClickOutside);
+      return () => {
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+
+      
+    }, [ref]);
+  }
+  
+
 
   const navList = 
     <>
@@ -36,7 +65,7 @@ function Header() {
 
           {navOpen ?
 
-            <div className="border-1 border-black pt-4 pb-3 pl-2 pr-4 -ml-16 absolute rounded-sm">
+            <div ref={wrapperRef} className="border-1 border-black pt-4 pb-3 pl-2 pr-4 -ml-16 absolute rounded-sm">
               <ul className="flex flex-col text-start ml-3 [&>a]:mb-1">
                 {navList}
               </ul>
