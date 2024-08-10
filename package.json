@@ -4,7 +4,9 @@
   "private": true,
   "description": "",
   "author": "Toby Hogan",
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
@@ -14,16 +16,15 @@
     "typecheck": "tsc --noEmit",
     "deploy1": "gatsby build --prefix-paths && gh-pages -d public",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public --cname ''tobyhogan.space'' ",
-    
     "deploy2": "gatsby build --prefix-paths && gh-pages -d public | cat > CNAME | echo 'tobyhogan.space' > CNAME",
     "test123": "cat > test.txt",
     "test1233": "echo 'text511' > test.txt",
     "test141": "cat > test.txt | echo 'text511' > test.txt",
     "test241": "cat > test.txt && echo 'text511' > test.txt"
-
   },
   "dependencies": {
     "gatsby": "^5.13.5",
+    "gatsby-plugin-google-gtag": "^5.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-remark": "^6.13.1",

@@ -2,6 +2,20 @@ import type { GatsbyConfig } from "gatsby"
 
 module.exports = {
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+
+        
+        trackingIds: [ "G-0W2XN8P0M3", ],
+
+        pluginConfig: {
+
+          head: true,
+
+        },
+    
+    },},
     'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-plugin-manifest',
