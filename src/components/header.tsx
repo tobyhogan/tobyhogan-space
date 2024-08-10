@@ -8,6 +8,10 @@ import { IoInvertMode } from "react-icons/io5";
 import { MdMenu } from "react-icons/md";
 
 
+
+ 
+
+
 function Header() {
 
   const [navOpen, setNavOpen] = useState(false)
@@ -135,6 +139,7 @@ function Header() {
       <Link to="/info" className="underline hover:bg-grayNew-275">INFO</Link>
     </>
 
+    
 
   return (
       <div className="flex flex-row mx-auto w-fit mb-8">

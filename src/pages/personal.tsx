@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link, type HeadFC, type PageProps } from "gatsby"
 
+import { OutboundLink } from "gatsby-plugin-google-gtag"
+
 import Header from "../components/header"
 import Footer from "../components/footer"
 
@@ -24,6 +26,9 @@ const PersonalPage: React.FC<PageProps> = () => {
             <a href="https://browser-music-viewer.vercel.app/" target="_blank" className="Link1 ml-4">-&nbsp;<u>Web App: Track Stem Mixer</u></a>
             <h5>- Links:</h5>
             <a href="https://open.spotify.com/user/kjejvfmuzwmjmkdykulvb39hm/playlists" target="_blank" className="Link1 ml-4">-&nbsp;<u>My Playlists of Favourite Artists ⇒ Spotify</u></a>
+            <OutboundLink href="https://www.gatsbyjs.com/plugins/gatsby-plugin-google-gtag/">
+              Visit the Google Global Site Tag plugin page!
+            </OutboundLink>
           </li>
 
           <li>
