@@ -7,7 +7,7 @@ import { AiOutlineSpotify } from "react-icons/ai";
 function Footer() {
   return (
       <div className="">
-        <p className="text-center my-12 font-bold">© tobyhogan.space 2024</p>
+        <p className="text-center my-12 font-bold">© tobyhogan.space 2024 :)</p>
       </div>
     )
 }

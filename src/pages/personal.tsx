@@ -26,9 +26,6 @@ const PersonalPage: React.FC<PageProps> = () => {
             <a href="https://browser-music-viewer.vercel.app/" target="_blank" className="Link1 ml-4">-&nbsp;<u>Web App: Track Stem Mixer</u></a>
             <h5>- Links:</h5>
             <a href="https://open.spotify.com/user/kjejvfmuzwmjmkdykulvb39hm/playlists" target="_blank" className="Link1 ml-4">-&nbsp;<u>My Playlists of Favourite Artists ⇒ Spotify</u></a>
-            <OutboundLink href="https://www.gatsbyjs.com/plugins/gatsby-plugin-google-gtag/">
-              Visit the Google Global Site Tag plugin page!
-            </OutboundLink>
           </li>
 
           <li>
@@ -44,6 +41,9 @@ const PersonalPage: React.FC<PageProps> = () => {
           <li><h4>Art:</h4></li>
           <li></li>
         </ul>
+        <OutboundLink href="https://www.gatsbyjs.com/plugins/gatsby-plugin-google-gtag/" className="ml-32">
+          -- test --
+        </OutboundLink>
       </section>
       <Footer />
     </main>

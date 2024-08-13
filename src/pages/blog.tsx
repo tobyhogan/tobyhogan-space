@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 
@@ -24,7 +26,9 @@ const BlogPage: React.FC<PageProps> = ({data: {allMarkdownRemark: { edges }, },}
       <Header />
       <div>
         <h1 className="mb-3">Development Blog</h1>
-        <h3 className="mt-5">Posts:</h3>
+        {//<h3 className="mt-5">Featured:</h3>
+        }
+        <h3 className="mt-5">All Posts:</h3>
         <div className="mx-auto w-fit mt-5 pl-10">
           {Posts}
         </div>

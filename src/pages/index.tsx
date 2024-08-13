@@ -2,6 +2,8 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 
+import { MdOpenInNew } from "react-icons/md"
+
 import '../styles/global.css'
 import '../styles/index.css'
 
@@ -42,13 +44,16 @@ const IndexPage: React.FC<PageProps> = () => {
       <div className="px-8 mx-auto w-fit">
         <h1 className="mb-3">Toby: Indie Dev</h1>
         <p className="w-64 text-center text-md">Hey I'm Toby, a UK based software developer; making some stuff people hopefully find useful :)</p>
-        <p className="text-center my-5 text-lg">Some of my projects: </p>
+        <p className="text-center my-5 text-[18px]">Main (Commercial) Projects: </p>
       </div>
       <div className="mx-auto rounded-md w-fit">
         <div style={widgetsRowStyles} className="WidgetsRow">
           <div style={projectWidgetStyles} className="ProjectWidget">
             <a href="https://tobyhogan.github.io/habit-tracker-landing-page/" target="_blank">
-              <h5 className="mt-2 underline">Habitazen</h5>
+              <div className="flex flex-row w-fit mx-auto">
+                <h5 className="mt-2 underline ml-3">Habitazen</h5>
+                <MdOpenInNew className="mt-[12px] ml-[7px]" size={18}/>
+              </div>
               <img src={habtiazen_screenshot} className="Image1"></img>
               <p className="mb-3">A flexible habit tracker.</p>
             </a>
