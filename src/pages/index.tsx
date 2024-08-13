@@ -44,9 +44,9 @@ const IndexPage: React.FC<PageProps> = () => {
       <div className="px-8 mx-auto w-fit">
         <h1 className="mb-3">Toby: Indie Dev</h1>
         <p className="w-64 text-center text-md">Hey I'm Toby, a UK based software developer; making some stuff people hopefully find useful :)</p>
-        <p className="text-center my-5 text-[18px]">Main (Commercial) Projects: </p>
+        <p className="text-center mt-6 text-[17px]">Main (Commercial) Projects: </p>
       </div>
-      <div className="mx-auto rounded-md w-fit">
+      <div className="mx-auto rounded-md w-fit mt-5">
         <div style={widgetsRowStyles} className="WidgetsRow">
           <div style={projectWidgetStyles} className="ProjectWidget">
             <a href="https://tobyhogan.github.io/habit-tracker-landing-page/" target="_blank">
