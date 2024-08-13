@@ -8,6 +8,7 @@ html {
   .light {
     background-color: rgb(221, 215, 214);
   }
+
   .dark {
     background-color: rgb(201, 195, 194);
   }
@@ -15,6 +16,10 @@ html {
   font-family: "Nunito", sans-serif;
   
 }
+
+/*
+    background-color: rgb(201, 195, 194);
+*/
 
 
 

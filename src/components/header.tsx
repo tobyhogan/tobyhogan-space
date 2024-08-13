@@ -30,18 +30,21 @@ function Header() {
       
       if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 
-        localStorage.setItem("theme", "dark")
-        document.body.classList.add('dark')
+        localStorage.setItem("theme", "light")
+        document.body.classList.add('light')
   
-        setIsDark(true)
+        setIsDark(false)
+
+
+       // === CODE ABOVE MAKE SITE DEFAULT TO LIGHT NO MATTER WHAT === 
           
 
       } else {
 
-        localStorage.setItem("theme", "dark")
-        document.body.classList.add('dark')
+        localStorage.setItem("theme", "light")
+        document.body.classList.add('light')
   
-        setIsDark(true)
+        setIsDark(false)
 
       }
 
