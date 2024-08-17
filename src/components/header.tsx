@@ -16,8 +16,10 @@ function Header() {
 
   const [navOpen, setNavOpen] = useState(false)
 
-  const wrapperRef = useRef(null);
-  useOutsideAlerter(wrapperRef);
+  const menuRef = useRef(null);
+  const buttonRef = useRef(null);
+
+  useOutsideTrigger(menuRef, buttonRef);
 
 
   const [isDark, setIsDark] = useState(false)
@@ -109,13 +111,13 @@ function Header() {
 
   
   
-  function useOutsideAlerter(ref: any) {
+  function useOutsideTrigger(ref1: any, ref2: any) {
 
     useEffect(() => {
 
       function handleClickOutside(event: any) {
 
-        if (ref.current && !ref.current.contains(event.target)) {
+        if (ref1.current && !ref2.current.contains(event.target)) {
           
           setNavOpen(false)
 
@@ -127,7 +129,7 @@ function Header() {
       };
 
       
-    }, [ref]);
+    }, [ref1, ref2]);
   }
   
 
@@ -153,13 +155,14 @@ function Header() {
           </ul>
         </div>
         <div className="ToggleNav">
-          <button onClick={() => {setNavOpen(navOpen => !navOpen)}}>
+
+          <button ref={buttonRef} onClick={() => {setNavOpen(navOpen => !navOpen)}}>
             <MdMenu className="ml-4 mt-5" size={24}/>
           </button>
 
           {navOpen ?
 
-            <div ref={wrapperRef} className="border-1 border-black pt-4 pb-3 pl-2 pr-4 -ml-16 absolute rounded-sm">
+            <div ref={menuRef} className="border-1 border-black pt-4 pb-3 pl-2 pr-4 -ml-16 absolute rounded-sm">
               <ul className="flex flex-col text-start ml-3 [&>a]:mb-1">
                 {navList}
               </ul>
