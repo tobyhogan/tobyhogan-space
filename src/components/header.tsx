@@ -117,7 +117,7 @@ function Header() {
 
       function handleClickOutside(event: any) {
 
-        if (ref1.current && !ref2.current.contains(event.target)) {
+        if (ref1.current && !ref1.current.contains(event.target) && !ref2.current.contains(event.target)) {
           
           setNavOpen(false)
 
