@@ -61,9 +61,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <div style={projectWidgetStyles} className="ProjectWidget">
             <p>To be added...</p>
           </div>
-          <div style={projectWidgetStyles} className="ProjectWidget">
-            <p>To be added...</p>
-          </div>
+
         </div>
         <div></div>
         <div></div>

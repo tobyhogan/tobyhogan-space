@@ -1,1 +1,8 @@
  --prefix-paths
+
+
+empty project widget for home page:
+
+<div style={projectWidgetStyles} className="ProjectWidget">
+  <p>To be added...</p>
+</div>
