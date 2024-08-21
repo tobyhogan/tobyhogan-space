@@ -9,6 +9,7 @@ import '../styles/index.css'
 
 // @ts-ignore
 import habtiazen_screenshot from "../assets/habitazen.png"
+import kazen_hero from "../assets/kazen_hero.png"
 
 
 
@@ -42,9 +43,9 @@ const IndexPage: React.FC<PageProps> = () => {
     <main className="">
       <Header />
       <div className="px-8 mx-auto w-fit">
-        <h1 className="mb-3">Toby: Indie Dev</h1>
+        <h1 className="mb-3">Toby: Developer</h1>
         <p className="w-64 text-center text-md">Hey I'm Toby, a UK based software developer; making some stuff people hopefully find useful :)</p>
-        <p className="text-center mt-6 text-[17px]">Main (Commercial) Projects: </p>
+        <p className="text-center mt-6 text-[17px]">My Main Projects: </p>
       </div>
       <div className="mx-auto rounded-md w-fit mt-5">
         <div style={widgetsRowStyles} className="WidgetsRow">
@@ -55,17 +56,17 @@ const IndexPage: React.FC<PageProps> = () => {
                 <MdOpenInNew className="mt-[12px] ml-[7px]" size={18}/>
               </div>
               <img src={habtiazen_screenshot} className="Image1"></img>
-              <p className="mb-3">A flexible habit tracker.</p>
+              <p className="mb-3">A flexible habit tracker, with advanced features.</p>
             </a>
           </div>
           <div style={projectWidgetStyles} className="ProjectWidget">
-            <a href="https://tobyhogan.github.io/habit-tracker-landing-page/" target="_blank">
+            <a href="https://tobyhogan.github.io/kazen-projects-landing-page" target="_blank">
               <div className="flex flex-row w-fit mx-auto">
                 <h5 className="mt-2 underline ml-3">Kazen Projects</h5>
                 <MdOpenInNew className="mt-[12px] ml-[7px]" size={18}/>
               </div>
-              <img src={habtiazen_screenshot} className="Image1"></img>
-              <p className="mb-3">A Group of Projects Including: Software Products, Consulting, Open Source</p>
+              <img src={kazen_hero} className="Image1 w-full"></img>
+              <p className="mb-3">A Group of Projects Including: Software, Consulting and Open Source</p>
             </a>
           </div>
           <div style={projectWidgetStyles} className="ProjectWidget">
