@@ -173,14 +173,16 @@ a.Link1 {
 }
 
 .ProjectWidget {
-  filter: grayscale(100%);
+  filter: grayscale(80%);
 }
 
 .ProjectWidget:hover {
+
   transform: scale(1.02);
   transform-origin: center;
 
   transition: transform 0.1s;
+
 }
 
 

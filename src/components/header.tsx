@@ -2,6 +2,8 @@ import * as React from "react"
 import { useState, useEffect, useRef } from "react"
 import { Link } from "gatsby";
 
+import NavLink from "./navlink";
+
 import { VscGithub } from "react-icons/vsc";
 import { AiOutlineSpotify } from "react-icons/ai";
 import { IoInvertMode } from "react-icons/io5";
