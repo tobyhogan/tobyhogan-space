@@ -138,12 +138,12 @@ function Header() {
 
   const navList = 
     <>
-      <Link to="/" className="underline hover:bg-grayNew-275">HOME</Link>
-      <Link to="/blog" className="underline hover:bg-grayNew-275">BLOG</Link>
-      <Link to="/patch-notes" className="underline hover:bg-grayNew-275">PATCHES</Link>
-      <Link to="/resources" className="underline hover:bg-grayNew-275">RESOURCES</Link>
-      <Link to="/personal" className="underline hover:bg-grayNew-275">ME</Link>
-      <Link to="/info" className="underline hover:bg-grayNew-275">INFO</Link>
+      <NavLink to="/" setNavOpen={setNavOpen}>HOME</NavLink>
+      <NavLink to="/blog"setNavOpen={setNavOpen}>BLOG</NavLink>
+      <NavLink to="/patch-notes" setNavOpen={setNavOpen}>PATCHES</NavLink>
+      <NavLink to="/resources" setNavOpen={setNavOpen}>RESOURCES</NavLink>
+      <NavLink to="/personal" setNavOpen={setNavOpen}>ME</NavLink>
+      <NavLink to="/info" setNavOpen={setNavOpen}>INFO</NavLink>
     </>
 
     
@@ -152,7 +152,7 @@ function Header() {
       <div className="flex flex-row mx-auto w-fit mb-8">
         <Link to="/" className="mt-5 ml-4 mr-4 text-center text-neutral-500 text-lg tracking-wider hover:underline">tobyhogan.space</Link>
         <div className="FullNav">
-          <ul className="my-auto pt-5 [&>a]:ml-5 text-md tracking-wide list-none">
+          <ul className="my-auto pt-5 [&>*]:ml-5 text-md tracking-wide list-none">
             {navList}
           </ul>
         </div>
@@ -165,7 +165,7 @@ function Header() {
           {navOpen ?
 
             <div ref={menuRef} className="border-1 border-black pt-4 pb-3 pl-2 pr-4 -ml-16 absolute rounded-sm">
-              <ul className="flex flex-col text-start ml-3 [&>a]:mb-1">
+              <ul className="flex flex-col [&>*]:text-start ml-3 [&>*]:mb-1">
                 {navList}
               </ul>
             </div>

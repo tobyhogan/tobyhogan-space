@@ -5,17 +5,17 @@ import '../styles/global.css'
 import '../styles/index.css'
 
 
-function NavLink({text, href, setNavOpen}: any) {
+function NavLink({children, to, setNavOpen}: any) {
 
   return (
     <button
-      className="Link2 hover:underline"
+      className="Link2 underline hover:bg-grayNew-275"
       onClick={() => {
         console.log("working")
-        navigate(href)
+        navigate(to)
         setNavOpen(false)
     }}>
-      {text}
+      {children}
     </button>
 
   )
