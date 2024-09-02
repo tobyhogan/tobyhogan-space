@@ -12,8 +12,6 @@ import habtiazen_screenshot from "../assets/habitazen.png"
 import kazen_hero from "../assets/kazen_hero.png"
 
 
-
-
 import Header from "../components/header"
 import Footer from "../components/footer"
 

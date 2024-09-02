@@ -172,6 +172,9 @@ a.Link1 {
   margin: 10px 10px;
 }
 
+.ProjectWidget {
+  filter: grayscale(100%);
+}
 
 .ProjectWidget:hover {
   transform: scale(1.02);
