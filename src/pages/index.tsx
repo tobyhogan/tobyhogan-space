@@ -58,7 +58,7 @@ const IndexPage: React.FC<PageProps> = () => {
             </a>
           </div>
           <div style={projectWidgetStyles} className="ProjectWidget">
-            <a href="https://tobyhogan.github.io/kazen-projects-landing-page" target="_blank">
+            <a href="https://tobyhogan.github.io/projects-org-landing-page/" target="_blank">
               <div className="flex flex-row w-fit mx-auto">
                 <h5 className="mt-2 underline ml-3">Kazen Projects</h5>
                 <MdOpenInNew className="mt-[12px] ml-[7px]" size={18}/>
