@@ -10,10 +10,6 @@ import { IoInvertMode } from "react-icons/io5";
 import { MdMenu } from "react-icons/md";
 
 
-
- 
-
-
 function Header() {
 
   const [navOpen, setNavOpen] = useState(false)
@@ -66,11 +62,9 @@ function Header() {
     } else if (localStorage.getItem("theme") == "dark") {
 
       
-      
       document.body.classList.add('dark');
 
       setIsDark(true)
-
     }
 
 
@@ -103,16 +97,9 @@ function Header() {
 
     } 
 
-
   }
-
-
-
-
-
-
   
-  
+
   function useOutsideTrigger(ref1: any, ref2: any) {
 
     useEffect(() => {
@@ -135,13 +122,13 @@ function Header() {
   }
   
 
-
   const navList = 
     <>
       <NavLink to="/" setNavOpen={setNavOpen}>HOME</NavLink>
       <NavLink to="/blog"setNavOpen={setNavOpen}>BLOG</NavLink>
       <NavLink to="/patch-notes" setNavOpen={setNavOpen}>PATCHES</NavLink>
-      <NavLink to="/resources" setNavOpen={setNavOpen}>RESOURCES</NavLink>
+      {/*<NavLink to="/resources" setNavOpen={setNavOpen}>RESOURCES</NavLink>*/}
+      <NavLink to="/demo-projects" setNavOpen={setNavOpen}>DEMOS</NavLink>
       <NavLink to="/personal" setNavOpen={setNavOpen}>ME</NavLink>
       <NavLink to="/info" setNavOpen={setNavOpen}>INFO</NavLink>
     </>
