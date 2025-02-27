@@ -125,12 +125,13 @@ function Header() {
   const navList = 
     <>
       <NavLink to="/" setNavOpen={setNavOpen}>HOME</NavLink>
-      <NavLink to="/blog"setNavOpen={setNavOpen}>BLOG</NavLink>
+      <NavLink to="/portfolio" setNavOpen={setNavOpen}>PORTFOLIO</NavLink>
+      {/*<NavLink to="/blog"setNavOpen={setNavOpen}>BLOG</NavLink>*/}
       <NavLink to="/patch-notes" setNavOpen={setNavOpen}>PATCHES</NavLink>
       {/*<NavLink to="/resources" setNavOpen={setNavOpen}>RESOURCES</NavLink>*/}
       <NavLink to="/demo-projects" setNavOpen={setNavOpen}>DEMOS</NavLink>
-      <NavLink to="/personal" setNavOpen={setNavOpen}>ME</NavLink>
-      <NavLink to="/info" setNavOpen={setNavOpen}>INFO</NavLink>
+      <NavLink to="/personal" setNavOpen={setNavOpen}>PERSONAL</NavLink>
+      <NavLink to="/info" setNavOpen={setNavOpen}>CONNECT</NavLink>
     </>
 
     
