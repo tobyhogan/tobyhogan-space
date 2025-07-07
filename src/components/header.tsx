@@ -123,15 +123,24 @@ function Header() {
   
 
   const navList = 
-    <>
-      <NavLink to="/" setNavOpen={setNavOpen}>HOME</NavLink>
+    <>{/*
       <NavLink to="/portfolio" setNavOpen={setNavOpen}>PORTFOLIO</NavLink>
-      {/*<NavLink to="/blog"setNavOpen={setNavOpen}>BLOG</NavLink>*/}
-      <NavLink to="/patch-notes" setNavOpen={setNavOpen}>PATCHES</NavLink>
-      {/*<NavLink to="/resources" setNavOpen={setNavOpen}>RESOURCES</NavLink>*/}
-      <NavLink to="/demo-projects" setNavOpen={setNavOpen}>DEMOS</NavLink>
+
       <NavLink to="/personal" setNavOpen={setNavOpen}>PERSONAL</NavLink>
+      <NavLink to="/blog"setNavOpen={setNavOpen}>BLOG</NavLink>
+      <NavLink to="/patch-notes" setNavOpen={setNavOpen}>PATCHES</NavLink>
+
+      <NavLink to="/demo-projects" setNavOpen={setNavOpen}>DEMOS</NavLink>
+      <NavLink to="/resources" setNavOpen={setNavOpen}>RESOURCES</NavLink>
+
+      */}
+
+      <NavLink to="/" setNavOpen={setNavOpen}>HOME</NavLink>
+
+      <NavLink to="/projects" setNavOpen={setNavOpen}>PROJECTS</NavLink>
+
       <NavLink to="/info" setNavOpen={setNavOpen}>CONNECT</NavLink>
+
     </>
 
     
@@ -146,7 +155,7 @@ function Header() {
         </div>
         <div className="ToggleNav">
 
-          <button ref={buttonRef} onClick={() => {setNavOpen(navOpen => !navOpen)}}>
+          <button ref={buttonRef} onClick={() => {setNavOpen((navOpen: any) => !navOpen)}}>
             <MdMenu className="ml-4 mt-5" size={24}/>
           </button>
 
