@@ -1,1 +1,11 @@
 bundle exec jekyll serve --livereload
+
+
+
+build and deploy to github pages:
+
+
+pnpm deploy1
+
+(info about deploys is in package.json)
+

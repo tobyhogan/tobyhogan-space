@@ -17,11 +17,7 @@ module.exports = {
     
     },},
     'gatsby-plugin-postcss',
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        "icon": "src/assets/icon.png"
-    }},
+    
 
     {
       resolve: `gatsby-source-filesystem`,
@@ -62,3 +58,13 @@ const config: GatsbyConfig = {
 export default config
 
 
+/*
+
+{
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        "icon": "src/assets/icon.png"
+    }},
+
+
+*/
