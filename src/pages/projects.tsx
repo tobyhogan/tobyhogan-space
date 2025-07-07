@@ -78,9 +78,9 @@ const IndexPage: React.FC<PageProps> = () => {
               <p className="mb-3">This is a website that allows people to sign in, upload their essays, save essays of others.</p>
             </a>
           </div>
-          
 
         </div>
+        <p className="text-center mt-3 text-[18px]">Other Projects: </p>
         <div></div>
         <div></div>
       </div>
